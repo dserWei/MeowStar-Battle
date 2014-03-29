@@ -74,7 +74,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32&quot;"
+				AdditionalLibraryDirectories="&quot;$(OutDir)&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
