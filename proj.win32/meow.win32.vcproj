@@ -48,7 +48,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=".;..\Classes;$(SolutionDir)cocos2dx;$(SolutionDir)cocos2dx\include;$(SolutionDir)cocos2dx\kazmath\include;$(SolutionDir)cocos2dx\platform\win32;$(SolutionDir)cocos2dx\platform\third_party\win32;$(SolutionDir)cocos2dx\platform\third_party\win32\OGLES;$(SolutionDir)external;$(SolutionDir)CocosDenshion\include"
+				AdditionalIncludeDirectories=".;..\Classes;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\include&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\kazmath\include&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\win32&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\cocos2dx\platform\third_party\win32\OGLES&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\external&quot;;&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\CocosDenshion\include&quot;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -73,8 +73,8 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib"
-				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(OutDir)"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;$(SolutionDir)\..\..\..\系统分析设计\cocos2d-x\cocos2d-2.0-x-2.0.4\Debug.win32&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
