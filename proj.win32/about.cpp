@@ -1,7 +1,6 @@
 #include "about.h"
 #include "menu.h"
 
-using namespace cocos2d;
 
 CCScene* about::scene()
 {
@@ -30,7 +29,7 @@ bool about::init()
 
 	CCSprite* bgStar = CCSprite::create("moon.png");
 	bgStar->setAnchorPoint(ccp(0.5,0));
-	bgStar->setPosition(ccp(size.width/3*2,0));
+	bgStar->setPosition(ccp(size.width/3,0));
 	bgStar->setScale(0.5);
 	this->addChild(bgStar,1,1);
 
@@ -44,7 +43,7 @@ bool about::init()
 	CCLabelTTF* message = CCLabelTTF::create(notice,"Zapfino",40,CCSizeMake(400,400),kCCTextAlignmentLeft);
 	message->setAnchorPoint(ccp(0,1));
 	message->setPosition(ccp(50,600));
-	message->setColor(ccc3(200,200,200));
+	message->setColor(ccc3(255,255,128));
 	frame->addChild(message);
 
 	CCSprite* title = CCSprite::create("about.png");

@@ -4,6 +4,9 @@
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
 
+static bool sound = true;
+extern bool ispaused;
+
 class menu : public cocos2d::CCLayer
 {
 public:
@@ -11,7 +14,7 @@ public:
 	virtual bool init();
 
 	void newCallback(CCObject* sender);
-	void continueCallback(CCObject* sender);
+	void continueCallback(CCObject* sender); 
 	void aboutCallback(CCObject* sender);
 	void soundCallback(CCObject* sender);
 
@@ -21,8 +24,8 @@ public:
 	virtual void onExit();
 
 	CREATE_FUNC(menu);
+
 private:
-	bool sound;
 	cocos2d::CCMenuItemImage* soundItem;
 };
 

@@ -206,11 +206,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\dog.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\fishbone.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\game.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\main.cpp"
 				>
 			</File>
 			<File
+				RelativePath=".\mark.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\menu.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\tube.cpp"
 				>
 			</File>
 		</Filter>
@@ -231,7 +251,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\dog.h"
+				>
+			</File>
+			<File
+				RelativePath=".\fishbone.h"
+				>
+			</File>
+			<File
+				RelativePath=".\game.h"
+				>
+			</File>
+			<File
 				RelativePath=".\main.h"
+				>
+			</File>
+			<File
+				RelativePath=".\mark.h"
 				>
 			</File>
 			<File
@@ -240,6 +276,10 @@
 			</File>
 			<File
 				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\tube.h"
 				>
 			</File>
 		</Filter>
@@ -260,7 +300,11 @@
 				>
 			</File>
 			<File
-				RelativePath="..\Resources\back.png"
+				RelativePath="..\Resources\back1.png"
+				>
+			</File>
+			<File
+				RelativePath="..\Resources\back2.png"
 				>
 			</File>
 			<File

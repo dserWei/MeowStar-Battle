@@ -1,19 +1,17 @@
-/*#include "cocos2d.h"
+#ifndef _GAME_CAT_H_
+#define _GAME_CAT_H_
+
+#include "cocos2d.h"
 
 using namespace cocos2d;
 
 class cat: public CCNode, public CCTargetedTouchDelegate
 {
-public:
-	CCSprite* lhand;
-	CCSprite* rhand;
-	CCPoint* offset;
-	bool iscontrol;
-	
+public:	
 	cat(void);
-	virtual ~cat(void);
+	~cat(void);
 
-	void bullet();
+	void bullet(float sender);
 
 	CCRect rect();
 
@@ -21,10 +19,19 @@ public:
 	virtual void onExit();
 
 	bool containsTouchLocation(CCTouch* touch);
-	virtual bool ccTouchBegan(CCTouch* touch, CCEvent* event);
-	virtual bool ccTouchMoved(CCTouch* touch, CCEvent* event);
-	virtual bool ccTouchEnded(CCTouch* touch, CCEvent* event);
+	virtual bool ccTouchBegan(CCTouch* touch, CCEvent* et);
+	virtual void ccTouchMoved(CCTouch* touch, CCEvent* et);
+	virtual void ccTouchEnded(CCTouch* touch, CCEvent* et);
 
 	virtual void touchDelegateRetain();
 	virtual void touchDelegateRelease();
-}*/
+
+private:
+	CCSprite* lhand;
+	CCSprite* rhand;
+	CCPoint offset;
+	bool iscontrol;
+
+};
+
+#endif
